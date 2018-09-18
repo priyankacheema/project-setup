@@ -1,3 +1,7 @@
-import { exportFunction } from './second';
+import _ from './second';
 
-exportFunction();
+_();
+
+// import { square } from './second';
+
+// console.log(square(10));

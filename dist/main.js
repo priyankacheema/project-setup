@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _second__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./second */ \"./src/second.js\");\n\r\n\r\nObject(_second__WEBPACK_IMPORTED_MODULE_0__[\"exportFunction\"])();\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _second__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./second */ \"./src/second.js\");\n\r\n\r\nObject(_second__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\r\n\r\n// import { square } from './second';\r\n\r\n// console.log(square(10));\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sec
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return exportFunction; });\nfunction exportFunction() {\r\n  console.log('Exporting this function as a default.');\r\n}\r\n\n\n//# sourceURL=webpack:///./src/second.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return demoFunction; });\nfunction demoFunction() {\r\n  console.log('Exporting this function as a default.');\r\n  console.log('Changing this function in dev branch to do something else.');\r\n}\r\n\r\n// export default function square(x) {\r\n//   return x * x;\r\n// }\r\n\n\n//# sourceURL=webpack:///./src/second.js?");
 
 /***/ })
 

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/priyankacheema/project-setup/issues"
   },
-  "homepage": "https://github.com/priyankacheema/project-setup#readme"
+  "homepage": "https://github.com/priyankacheema/project-setup#readme",
+  "devDependencies": {
+    "prettier": "^1.14.2"
+  }
 }

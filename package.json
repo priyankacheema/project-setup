@@ -4,7 +4,9 @@
   "description": "project setup stuff",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack --mode=development -w",
+    "build:prod": "webpack --mode=production"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,8 @@
   },
   "homepage": "https://github.com/priyankacheema/project-setup#readme",
   "devDependencies": {
-    "prettier": "^1.14.2"
+    "prettier": "^1.14.2",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
   }
 }
